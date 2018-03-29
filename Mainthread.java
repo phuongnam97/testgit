@@ -1,4 +1,4 @@
-package view;
+﻿package view;
 
 import controller.AccountController;
 import entity.Account;
@@ -10,7 +10,7 @@ public class Mainthread {
     public static void main(String[] args) {
         generateMenu();
     }
-
+	//Comment
     public static void generateMenu() {
         Scanner scanner = new Scanner(System.in);
         AccountController accountController = new AccountController();
